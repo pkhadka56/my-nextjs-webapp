@@ -9,7 +9,7 @@ Frontend:
 Config:
 - next.config.js
 - tsconfig.json
-- *.config.js
+- "*.config.js"
 - package.json
 - pnpm-lock.yaml
 - .env*
