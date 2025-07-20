@@ -1,0 +1,36 @@
+# Node modules (reinstalled inside container)
+node_modules
+**/node_modules
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files (optional, include if secrets)
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Next.js build output
+.next/cache
+
+# Local development files
+.vscode
+.idea
+.DS_Store
+
+# Tests and coverage
+coverage
+*.test.*
+*.spec.*
+
+# Git files
+.git
+.gitignore
+
+# Misc
+*.md
+*.markdown

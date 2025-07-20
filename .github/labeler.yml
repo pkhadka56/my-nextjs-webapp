@@ -1,0 +1,39 @@
+Frontend:
+- pages/**/*
+- components/**/*
+- hooks/**/*
+- styles/**/*
+- public/**/*
+- middleware/**/*
+
+Config:
+- next.config.js
+- tsconfig.json
+- *.config.js
+- package.json
+- pnpm-lock.yaml
+- .env*
+- .eslintrc.js
+- .prettierrc
+- .editorconfig
+
+Tests:
+- __tests__/**/*
+- jest.config.js
+- .github/workflows/**/*
+- cypress/**/*
+- testing/**/*
+
+Docs:
+- README.md
+- docs/**/*
+- content/en/**/*
+
+Images:
+- public/images/**/*
+- static/images/**/*
+
+DevEnv:
+- .vscode/**/*
+- .github/**/*
+
