@@ -41,3 +41,5 @@ DevOps:
 - Dockerfile
 - docker-compose.yml
 
+release:
+ - base-branch: 'main'

@@ -1,0 +1,15 @@
+name: Labeler
+on: [pull_request]
+
+jobs:
+  label:
+    permissions:
+      pull-requests: write
+      contents: read
+      statuses: write
+
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/labeler@v5
+      with:
+        repo-token: "${{ secrets.LABEL_TOKEN }}"
