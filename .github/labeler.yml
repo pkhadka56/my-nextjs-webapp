@@ -1,45 +1,59 @@
 Frontend:
-- pages/**/*
-- components/**/*
-- hooks/**/*
-- styles/**/*
-- public/**/*
-- middleware/**/*
+- changed-files:
+  - any-glob-to-any-file:
+    - pages/**/*
+    - components/**/*
+    - hooks/**/*
+    - styles/**/*
+    - public/**/*
+    - middleware/**/*
 
 Config:
-- next.config.js
-- tsconfig.json
-- "*.config.js"
-- package.json
-- pnpm-lock.yaml
-- .env*
-- .eslintrc.js
-- .prettierrc
-- .editorconfig
+- changed-files:
+  - any-glob-to-any-file:
+    - next.config.js
+    - tsconfig.json
+    - "*.config.js"
+    - package.json
+    - pnpm-lock.yaml
+    - .env*
+    - .eslintrc.js
+    - .prettierrc
+    - .editorconfig
 
 Tests:
-- __tests__/**/*
-- jest.config.js
-- .github/workflows/**/*
-- cypress/**/*
-- testing/**/*
+- changed-files:
+  - any-glob-to-any-file:
+    - __tests__/**/*
+    - jest.config.js
+    - .github/workflows/**/*
+    - cypress/**/*
+    - testing/**/*
 
 Docs:
-- README.md
-- docs/**/*
-- content/en/**/*
+- changed-files:
+  - any-glob-to-any-file:
+    - README.md
+    - docs/**/*
+    - content/en/**/*
 
 Images:
-- public/images/**/*
-- static/images/**/*
+- changed-files:
+  - any-glob-to-any-file:
+    - public/images/**/*
+    - static/images/**/*
 
 DevEnv:
-- .vscode/**/*
-- .github/**/*
+- changed-files:
+  - any-glob-to-any-file:
+    - .vscode/**/*
+    - .github/**/*
 
 DevOps:
-- Dockerfile
-- docker-compose.yml
+- changed-files:
+  - any-glob-to-any-file:
+    - Dockerfile
+    - docker-compose.yml
 
 release:
  - base-branch: 'main'
