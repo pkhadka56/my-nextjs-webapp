@@ -37,3 +37,7 @@ DevEnv:
 - .vscode/**/*
 - .github/**/*
 
+DevOps:
+- Dockerfile
+- docker-compose.yml
+
