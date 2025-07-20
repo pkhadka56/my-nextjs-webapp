@@ -10,6 +10,9 @@ jobs:
 
     runs-on: ubuntu-latest
     steps:
+    - uses: actions/checkout@v4
+      with:
+        repository: "pkhadka56/my-nextjs-webapp"
     - uses: actions/labeler@v5
       with:
         repo-token: "${{ secrets.LABEL_TOKEN }}"

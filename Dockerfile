@@ -15,6 +15,7 @@ COPY . .
 
 RUN yarn build
 
+
 FROM base AS runner
 
 WORKDIR /app
